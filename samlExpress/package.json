@@ -1,0 +1,30 @@
+{
+		"name": "samlExpress",
+		"version": "1.0.0",
+		"description": "",
+		"main": "index.js",
+		"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"keywords": [
+				"wso2-saml-sso",
+				"passport-saml"
+		],
+		"dependencies": {
+				"base64url": "^3.0.1",
+				"body-parser": "1.19.0",
+				"dotenv": "8.0.0",
+				"ejs": "2.6.2",
+				"express": "4.17.1",
+				"express-session": "1.16.2",
+				"jsonwebtoken": "^8.5.1",
+				"nodejs-base64": "^1.0.3",
+				"passport": "0.3.2",
+				"passport-saml": "0.15.0",
+				"saml-encoder-decoder-js": "^1.0.1",
+				"xml2js": "^0.4.23"
+		},
+		"devDependencies": {},
+		"author": "",
+		"license": "ISC"
+}
